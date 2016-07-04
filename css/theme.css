@@ -167,7 +167,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #222;
+  color: #535353;
   margin: 0;
   cursor: default;
 }
@@ -371,9 +371,6 @@ p.text-white a {
 a {
   color: #888;
 }
-a:hover {
-  color: #444;
-}
 .text-white {
   color: #fff !important;
 }
@@ -385,7 +382,7 @@ a:hover {
 }
 section.bg-dark,
 footer.bg-dark {
-  background: #222;
+  background: AVENU;
 }
 section.bg-dark.bg-secondary,
 footer.bg-dark.bg-secondary {
@@ -591,7 +588,7 @@ video {
   height: 0;
   border-style: solid;
   border-width: 15px 0 15px 26.0px;
-  border-color: transparent transparent transparent #222222;
+  border-color: transparent transparent transparent #535353222;
 }
 .play-button:hover {
   transform: scale(1.1);
@@ -613,7 +610,7 @@ video {
     height: 0;
     border-style: solid;
     border-width: 10px 0 10px 20.0px;
-    border-color: transparent transparent transparent #222222;
+    border-color: transparent transparent transparent #5353532;
   }
 }
 .play-button.video-playing {
@@ -658,7 +655,7 @@ video {
   height: 0;
   border-style: solid;
   border-width: 20px 0 20px 31.0px;
-  border-color: transparent transparent transparent #222222;
+  border-color: transparent transparent transparent #5353532;
 }
 @media all and (max-width: 767px) {
   .play-button.large {
