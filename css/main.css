@@ -29,10 +29,8 @@ h1 { text-align:center; }
     margin:auto;
     font-size:140%;
     line-height:1.6;
-    padding:10px
 }
 .page {
-    width:80%;
     margin:auto;
 }
 .page .inner p { padding:2em 0 0 }
@@ -105,3 +103,6 @@ svg.circle{
   }
 }
 /**/
+.build-smart {
+    background: linear-gradient(to right bottom, #ffffff 60%, #FF6239 40%);
+}
