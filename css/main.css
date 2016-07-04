@@ -12,7 +12,7 @@ h1 { text-align:center; }
     height:100%;
     width:100%;
     margin:auto;
-    background: linear-gradient( rgba(146, 156, 187, 0.48), rgba(0, 0, 0, 0.5) ),url(../img/bridge2.jpg) no-repeat 50% 50%;
+    background: linear-gradient( rgba(24, 24, 24, 0.81), rgba(17, 18, 32, 0.82) ),url(../img/bridge2.jpg) no-repeat 50% 50%;
     background-size:cover;
 }
 .intro .inner {
@@ -26,7 +26,6 @@ h1 { text-align:center; }
     margin:200px auto 0 auto;
 }
 .inner {
-    max-width:600px;
     margin:auto;
     font-size:140%;
     line-height:1.6;
