@@ -1,0 +1,108 @@
+/*avenu color : FF6239*/
+html, body {
+    margin:0;
+    padding:0;
+    height:100%;
+    font-family: 'Roboto', sans-serif;
+}
+h1, p { margin:0 0 1em; }
+h1 { text-align:center; }
+.intro {
+    display:table;
+    height:100%;
+    width:100%;
+    margin:auto;
+    background: linear-gradient( rgba(146, 156, 187, 0.48), rgba(0, 0, 0, 0.5) ),url(../img/bridge2.jpg) no-repeat 50% 50%;
+    background-size:cover;
+}
+.intro .inner {
+    display:table-cell;
+    vertical-align:top;
+    width:100%;
+    max-width:none;
+}
+.content {
+    max-width:960px;
+    margin:200px auto 0 auto;
+}
+.inner {
+    max-width:600px;
+    margin:auto;
+    font-size:140%;
+    line-height:1.6;
+    padding:10px
+}
+.page {
+    width:80%;
+    margin:auto;
+}
+.page .inner p { padding:2em 0 0 }
+.white-text {
+    color: #ffffff;
+}
+.top-links, .top-links a {
+    color: #ffffff;
+    font-size: 15px;
+    text-align: right;
+    margin-top: 20px;
+    text-decoration: none;
+}
+.top-links .item {
+    padding: 15px;
+}
+.top-links .selected {
+    margin-left: 15px;
+    border: 3px solid rgba(221, 87, 53, 0.58);
+    border-radius: 27px;
+}
+.landing-icon {
+    font-size: 50px;
+    color: #ffffff;
+}
+.landing-icon-text {
+    color: #ffffff;
+    font-size: 30px;
+}
+.big i{
+    font-size: 40px;
+}
+.top-50 {
+    margin-top: 50px;
+}
+.spin {
+    animation: spin 2s infinite linear;
+}
+/**/
+
+svg.circle{
+  will-change:stroke-dasharray;
+  stroke:#FF6239;
+  stroke-width:3;
+  display:block;
+  margin:0 auto;
+  width:300px;
+  height:200px;
+  fill: transparent;
+  stroke-dasharray:80;
+  transition:all .4s ease-in-out;
+}
+.landing-icon-text:hover svg.circle, #circle:hover svg.circle{
+  animation: 2s rotate forwards;
+}
+#circle{
+  width:500px;
+  margin:0 auto;
+  cursor:pointer;
+}
+@keyframes rotate{
+  from{
+    stroke-dasharray:80;
+  }
+  to{
+    stroke-dasharray:0;
+    stroke-width:3;
+    stroke:magenta;
+    fill:transparent;
+  }
+}
+/**/
