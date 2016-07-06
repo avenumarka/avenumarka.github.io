@@ -1,10 +1,10 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="" ng-app="app">
     <!--<![endif]-->
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
+        <title ng-controller="HomeCtrl">{{title}}</title>
         <meta name="description" content="">
         <link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png">
         <link rel="apple-touch-icon" sizes="60x60" href="img/apple-icon-60x60.png">
@@ -68,15 +68,11 @@
         </div>
         <div class="page">
             <div class="inner" id="about">
+                    <div class="blockquote main">
+                        <blockquote><sup><i class="icon ion-quote"></i></sup> The <b>best</b> outdoor advertisement agency in Novosibirsk. Period. <sup><i class="icon ion-quote"></i></sup></blockquote>
+                    </div>
                 			<section class="features features-3">
                 				<div class="container">
-                					<div class="row">
-                						<div class="col-md-10 col-md-offset-1 col-sm-12 text-center">
-                							<h3>The best advertisement agency in the city</h3>
-                							<p>With multiple options for all sections -  has the right stuff for your next landing page.</p>
-                						</div>
-                					</div>
-
                 					<div class="row">
                 						<div class="col-sm-4 text-center feature">
                 							<i class="icon ion-ios-monitor-outline"></i>
@@ -180,7 +176,7 @@
             </div>
         </footer>
 
-
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.12/angular.js"></script>
         <script src="js/main.js"></script>
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <!-- <script>

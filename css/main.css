@@ -106,3 +106,16 @@ svg.circle{
 .build-smart {
     background: linear-gradient(to right bottom, #ffffff 65%, #FF6239 35%);
 }
+blockquote {
+    font-family: "Open Sans", Verdana, Arial, sans-serif;
+    font-size: 28px;
+    line-height: 15px;
+    width: 100%;
+    background-color: #f6f6f6;
+    height: 100px;
+    text-align: center;
+    padding-top: 40px;
+    color: #616161;
+    font-weight: 300;
+    font-style: italic;
+}
