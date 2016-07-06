@@ -1,0 +1,2 @@
+For blog on home page - http://tympanus.net/Development/AnimatedGridLayout/
+For header on first page - http://tympanus.net/codrops/2014/09/23/animated-background-headers/
