@@ -41,7 +41,7 @@ h1 { text-align:center; }
     color: #ffffff;
     font-size: 15px;
     text-align: right;
-    margin-top: 20px;
+    margin-top: 40px;
     text-decoration: none;
 }
 .top-links .item {
@@ -104,5 +104,5 @@ svg.circle{
 }
 /**/
 .build-smart {
-    background: linear-gradient(to right bottom, #ffffff 60%, #FF6239 40%);
+    background: linear-gradient(to right bottom, #ffffff 65%, #FF6239 35%);
 }
