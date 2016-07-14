@@ -53,6 +53,46 @@ app.controller('HomeCtrl',['$scope', function($scope) {
                 'name' : "",
                 'url' : "http://lorempixel.com/g/280/186/?786",
                 'slug' : ""
+            },
+            {
+                'name' : "",
+                'url' : "http://lorempixel.com/image_output/people-h-c-327-708-9.jpg",
+                'slug' : ""
+            },
+            {
+                'name' : "",
+                'url' : "http://lorempixel.com/image_output/transport-h-c-327-565-2.jpg",
+                'slug' : ""
+            },
+            {
+                'name' : "",
+                'url' : "http://lorempixel.com/image_output/nightlife-h-c-423-531-10.jpg",
+                'slug' : ""
+            },
+            {
+                'name' : "",
+                'url' : "http://lorempixel.com/image_output/nightlife-h-c-517-649-4.jpg",
+                'slug' : ""
+            },
+            {
+                'name' : "",
+                'url' : "http://lorempixel.com/image_output/nightlife-h-c-208-276-2.jpg",
+                'slug' : ""
+            },
+            {
+                'name' : "",
+                'url' : "http://lorempixel.com/image_output/nightlife-h-c-271-295-1.jpg",
+                'slug' : ""
+            },
+            {
+                'name' : "",
+                'url' : "http://lorempixel.com/image_output/food-h-c-513-528-9.jpg",
+                'slug' : ""
+            },
+            {
+                'name' : "",
+                'url' : "http://lorempixel.com/image_output/food-q-c-657-397-5.jpg",
+                'slug' : ""
             }
     ]
 
