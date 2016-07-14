@@ -31,10 +31,10 @@
         <link href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
-    <body>
-        <div class="grid" ng-controller="HomeCtrl">
+    <body ng-controller="HomeCtrl">
+        <div class="grid">
             <div masonry masonry-options="{ transitionDuration: '3s' }" prepend="isPrepended()" reload-on-resize>
-                <figure class="masonry-brick effect-milo" ng-repeat="p in projects">
+                <figure class="masonry-brick effect-milo" ng-repeat="p in projects" ng-mouseenter="changeColor()">
                     <img ng-src="{{ p.url }}" alt="A project">
                     <figcaption>
                             <h2>Project <span>Name</span></h2>
@@ -48,6 +48,11 @@
 
 
         <!-- Scripts start here -->
+        <style type="text/css">            
+            figure.effect-milo {
+                background: {{color}};
+            }
+        </style>
         <script src="bower_components/jquery/dist/jquery.js"></script>
         <script src="bower_components/jquery-bridget/jquery-bridget.js"></script>
         <script src="bower_components/ev-emitter/ev-emitter.js"></script>

@@ -58,9 +58,6 @@ body {
 /***** Milo *****/
 /*---------------*/
 
-figure.effect-milo {
-	background: #2e5d5a;
-}
 
 figure.effect-milo img {
 	max-width: none;
@@ -74,7 +71,7 @@ figure.effect-milo img {
 }
 
 figure.effect-milo:hover img {
-	opacity: 0.5;
+	opacity: 0.2;
 	-webkit-transform: translate3d(0,0,0) scale(1);
 	transform: translate3d(0,0,0) scale(1);
 }

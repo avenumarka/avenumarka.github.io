@@ -55,4 +55,10 @@ app.controller('HomeCtrl',['$scope', function($scope) {
                 'slug' : ""
             }
     ]
+
+    var colors = ['red', 'green', 'blue', 'gold', 'yellow', 'brown', 'pink', 'white'];
+    $scope.changeColor = function() {
+        var randomNumber = Math.floor(Math.random()*7);
+        $scope.color=colors[randomNumber];
+    }
 }]);
