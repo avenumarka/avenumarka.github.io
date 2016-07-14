@@ -1,327 +1,97 @@
-/*avenu color : FF6239*/
-html, body {
-    margin:0;
-    padding:0;
-    height:100%;
-    font-family: 'Roboto', sans-serif;
-    overflow-x: hidden;
-}
-h1, p { margin:0 0 1em; }
-h1 { text-align:center; }
-.intro {
-    display:table;
-    height:100%;
-    width:100%;
-    margin:auto;
-    background: linear-gradient( rgba(24, 24, 24, 0.81), rgba(17, 18, 32, 0.82) ),url(../img/bridge2.jpg) no-repeat 50% 50%;
-    background-size:cover;
-}
-.intro .inner {
-    display:table-cell;
-    vertical-align:top;
-    width:100%;
-    max-width:none;
-}
-.content {
-    max-width:960px;
-    margin:200px auto 0 auto;
-}
-.inner {
-    margin:auto;
-    font-size:140%;
-    line-height:1.6;
-}
-.page {
-    margin:auto;
-}
-.page .inner p { padding:2em 0 0 }
-.white-text {
-    color: #ffffff;
-}
-.top-links, .top-links a {
-    color: #ffffff;
-    font-size: 15px;
-    text-align: right;
-    margin-top: 40px;
-    text-decoration: none;
-}
-.top-links .item {
-    padding: 15px;
-}
-.top-links .selected {
-    margin-left: 15px;
-    border: 3px solid rgba(221, 87, 53, 0.58);
-    border-radius: 27px;
-}
-.landing-icon {
-    font-size: 50px;
-    color: #ffffff;
-}
-.landing-icon-text {
-    color: #ffffff;
-    font-size: 30px;
-}
-.big i{
-    font-size: 40px;
-}
-.top-50 {
-    margin-top: 50px;
-}
-.spin {
-    animation: spin 2s infinite linear;
-}
-/**/
-
-svg.circle{
-  will-change:stroke-dasharray;
-  stroke:#FF6239;
-  stroke-width:3;
-  display:block;
-  margin:0 auto;
-  width:300px;
-  height:200px;
-  fill: transparent;
-  stroke-dasharray:80;
-  transition:all .4s ease-in-out;
-}
-.landing-icon-text:hover svg.circle, #circle:hover svg.circle{
-  animation: 2s rotate forwards;
-}
-#circle{
-  width:500px;
-  margin:0 auto;
-  cursor:pointer;
-}
-@keyframes rotate{
-  from{
-    stroke-dasharray:80;
-  }
-  to{
-    stroke-dasharray:0;
-    stroke-width:3;
-    stroke:magenta;
-    fill:transparent;
-  }
-}
-/**/
-.build-smart {
-    background: linear-gradient(to right bottom, #ffffff 65%, #FF6239 35%);
-}
-blockquote {
-    font-size: 25px;
-    line-height: 60px;
-    width: 100%;
-    background-color: #f6f6f6;
-    height: 100px;
-    text-align: center;
-    padding-top: 20px;
-    color: #616161;
-    font-weight: 300;
-    font-style: italic;
-}
-
-
-
-
-
-/*
-Tutorial Name: Meet the Team
-Description: A simple concept for members section.
-Author: Stanislav Kostadinov
-Author URI: http://stanislav.it
-Usage: You can use this code for free in personal and commercial projects if you build upon it. You are not allowed to republish, redistribute or sell "as-is".
-*/
-
-/* 01. GENERAL SETTINGS ============================================ */
-
-* {margin: 0; padding: 0;}
-
-p {line-height: 160%;}
-
-a {text-decoration: none; color: #fff; transition: all 0.1s ease-in;}
-img {border: 0;}
-
 body {
-	background: #fff;
+	background-color: #F3F3F3;
+}
+/* Common style */
+
+.grid figure figcaption {
+	padding: 2em;
 	color: #fff;
-	font-size: 13px;
+	text-transform: uppercase;
+	font-size: 1.25em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.grid figure figcaption::before,
+.grid figure figcaption::after {
+	pointer-events: none;
+}
+
+.grid figure figcaption,
+.grid figure figcaption > a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.grid figure figcaption > a {
+	z-index: 1000;
+	text-indent: 200%;
+	white-space: nowrap;
+	font-size: 0;
+	opacity: 0;
+}
+
+.grid figure h2 {
+	word-spacing: -0.15em;
 	font-weight: 300;
 }
 
-.clear {clear: both;}
-
-/* Buttons */
-.btn {
-	display: inline-block;
-	margin-top: 20px;
-	padding: 10px 40px;
-	color: rgba(255,255,255, 0.95);
-	font-size: 18px;
-	font-weight: 700;
-	text-transform: uppercase;
-	border: none;
-	border-radius: 20px;
-	outline: 0;
-	transition: all 0.1s ease-in;
+.grid figure h2 span {
+	font-weight: 800;
 }
 
-.btn-transparent {background: rgba(0,0,0, 0.2);}
-.btn-transparent:hover {background: rgba(0,0,0, 0.4);}
-
-/* Separators */
-.separator {
-	margin: 0 auto 50px auto;
-	background: rgba(0, 0, 0, 0.2);
-	width: 30px;
-    color: #ffffff;
-	height: 5px;
+.grid figure h2,
+.grid figure p {
+	margin: 0;
 }
 
+.grid figure p {
+	letter-spacing: 1px;
+	font-size: 68.5%;
+}
+/*---------------*/
+/***** Milo *****/
+/*---------------*/
 
-/* 03. SPEAKERS SETTINGS ============================================ */
-
-#speakers {
-	padding: 60px 0;
-    background: linear-gradient(to right bottom, #FF6239 65%, #FFFFFF 35%);;
-	text-align: center;
+figure.effect-milo {
+	background: #2e5d5a;
 }
 
-#speakers p {
-	padding: 20px 0 60px;
-	color: rgba(255,255,255, 0.85);
-	font-size: 16px;
-	letter-spacing: 0.2px;
+figure.effect-milo img {
+	max-width: none;
+	width: -webkit-calc(100%);
+	width: calc(100%);
+	opacity: 1;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
 }
 
-#speakers h3 {
-	padding: 0 0 15px;
-	font-size: 36px;
-    color: #ffffff;
-	text-transform: uppercase;
+figure.effect-milo:hover img {
+	opacity: 0.5;
+	-webkit-transform: translate3d(0,0,0) scale(1);
+	transform: translate3d(0,0,0) scale(1);
+}
+figure.effect-milo h2 {
+	padding: 0 10px 0 0;
+	width: 50%;
+	border-bottom: 1px solid #fff;
+	text-align: right;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(-40px,0,0);
+	transform: translate3d(-40px,0,0);
 }
 
-#speakers h4  {
-	margin-top: -20px;
-	font-size: 32px;
-	font-weight: 700;
-}
-
-#speakers h4 span {
-	display: block;
-	position: relative;
-	left: -40px;
-	top: 10px;
-    color: #535353;
-	font-size: 20px;
-	background: none;
-	padding: 0;
-}
-
-#speakers img {
-	width: 100%;
-	max-width: 240px;
-	border-radius: 50%;
-	border: 15px solid #FFFFFF;
-	transition: all 0.1s ease-in;
-}
-
-#speakers img:hover {
-	position: relative;
-	z-index: 10;
-	transition: all 0.1s ease-in;
-}
-
-#speakers span {
-	padding: 8px 20px;
-	position: relative;
-	top: -64px;
-	left: -42px;
-	display: inline-block;
-	background: #FF6239;
-	border-radius: 16px 16px 0 16px;
-	font-size: 16px;
-    color: #ffffff;
-}
-
-/* Member Image Hover Effect */
-.hover_img {
-  display: none
-}
-
-.member-profile:hover .unhover_img{
-  display: none;
-}
-
-.member-profile:hover .hover_img {
-  display: block;
-}
-
-/* Social Networks Meta */
-#speakers li {display: inline-block; padding: 0 6px; font-size: 18px;}
-#speakers li a {color: rgba(0,0,0, 0.3); transition: all 0.1s ease-in;}
-#speakers li a:hover {color: rgba(0,0,0, 0.7);}
-
-/* Rows Optimization */
-.row2 {
-	display: none;
-}
-
-.row1 .col-md-3, .row2 .col-md-3 {
-	padding-bottom: 40px;
-}
-
-/* Mobile Devices Optimization */
-@media (min-width: 568px) and (max-width: 992px) {
-
-	.row1 .col-md-3, .row2 .col-md-3 {
-		display: inline-block;
-		max-width: 50%;
-	}
-
-	#speakers img {max-width: 300px;}
-
-}
-
-#portfolio {
- width: 1200px;
-}
-
-/*Media Queries*/
-@media only screen and (max-width : 1199px),
-only screen and (max-device-width : 1199px){
- #portfolio {
- width: 1000px;
- }
-}
-
-
-@media only screen and (max-width : 999px),
-only screen and (max-device-width : 999px){
- #portfolio {
- width: 800px;
- }
-}
-
-@media only screen and (max-width : 799px),
-only screen and (max-device-width : 799px){
- #portfolio {
- width: 600px;
- }
-}
-
-@media only screen and (max-width : 599px),
-only screen and (max-device-width : 599px){
- #portfolio {
- width: 400px;
- }
-}
-
-@media only screen and (max-width : 399px),
-only screen and (max-device-width : 399px){
- #portfolio {
- width: 200px;
- }
-}
-.top-80 {
-    margin-top: 80px;
+figure.effect-milo:hover h2 {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
 }

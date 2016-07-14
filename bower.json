@@ -1,0 +1,25 @@
+{
+  "name": "avenumarka.github.io",
+  "description": "Marka branding agency website",
+  "main": "server.js",
+  "authors": [
+    "Shikhar Dubey"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "marka"
+  ],
+  "homepage": "https://github.com/avenumarka/avenumarka.github.io",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angularjs#^1.5.7",
+    "angular-masonry": "^0.16.0"
+  }
+}
