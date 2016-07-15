@@ -1,0 +1,18 @@
+<div class="grid">
+    <div masonry masonry-options="{ transitionDuration: '1s' }" preserve-order reload-on-resize>
+        <figure class="masonry-brick effect-milo" ng-repeat="p in projects" ng-mouseenter="changeColor()">
+            <img ng-src="{{ p.url }}" alt="A project">
+            <figcaption>
+                    <h2>Project <span>Name</span></h2>
+                    <a href="#">View more</a>
+                </figcaption>
+        </figure>
+    </div>
+</div>
+
+
+<style type="text/css">            
+    figure.effect-milo {
+        background: {{color}};
+    }
+</style>

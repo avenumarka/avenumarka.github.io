@@ -20,6 +20,7 @@
   ],
   "dependencies": {
     "angular": "angularjs#^1.5.7",
-    "angular-masonry": "^0.16.0"
+    "angular-masonry": "^0.16.0",
+    "angular-ui-router": "^0.3.1"
   }
 }
