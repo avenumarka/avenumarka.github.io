@@ -32,8 +32,36 @@
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
     <body ng-controller="HomeCtrl">
+
+    <!-- -******************************************* -->
+        <nav class="navbar navbar-transparent">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+        <a class="navbar-brand" href="#">
+            <img alt="Brand" src="img/logo.png">
+        </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Clients</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
         <div class="grid">
-            <div masonry masonry-options="{ transitionDuration: '3s' }" prepend="isPrepended()" reload-on-resize>
+            <div masonry masonry-options="{ transitionDuration: '1s' }" preserve-order reload-on-resize>
                 <figure class="masonry-brick effect-milo" ng-repeat="p in projects" ng-mouseenter="changeColor()">
                     <img ng-src="{{ p.url }}" alt="A project">
                     <figcaption>

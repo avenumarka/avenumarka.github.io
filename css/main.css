@@ -2,7 +2,9 @@ body {
 	background-color: #F3F3F3;
 }
 /* Common style */
-
+.grid {
+	margin-left: 10%;
+}
 .grid figure figcaption {
 	padding: 2em;
 	color: #fff;
@@ -91,4 +93,13 @@ figure.effect-milo:hover h2 {
 	opacity: 1;
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
+}
+.navbar-brand>img {
+    display: block;
+    max-height: 30px;
+}
+.navbar-transparent {
+    background-color: transparent;
+    border-color: transparent;
+    margin: 20px;
 }
