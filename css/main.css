@@ -3,6 +3,7 @@ body {
 }
 /* Common style */
 .grid {
+	margin-left: 5%;
 }
 figure {
 	border-left: 15px solid #f3f3f3;
@@ -102,7 +103,19 @@ figure.effect-milo:hover h2 {
     max-height: 30px;
 }
 .navbar-transparent {
-    background-color: transparent;
+	background-color: #fff;
     border-color: transparent;
-    margin: 20px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+}
+.navbar-right {
+	padding-top: 5px;
+}
+.nav>li>a {
+	text-transform: uppercase;
+	font-weight: bolder;
+	color: #7e7e7e;
+}
+.nav>li>a:hover, .nav>li>a:focus {
+	background-color: transparent;
 }
