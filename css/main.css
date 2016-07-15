@@ -3,7 +3,10 @@ body {
 }
 /* Common style */
 .grid {
-	margin-left: 10%;
+}
+figure {
+	border-left: 15px solid #f3f3f3;
+	border-bottom: 15px solid #f3f3f3;
 }
 .grid figure figcaption {
 	padding: 2em;
