@@ -7702,17 +7702,21 @@ section[class*='elements-'] hr + .row {
   color: #FF6239 !important;
 }
 
-.whiteback {
+.orangeback {
+  background-color: #FF6239;
+}
+
+/*.whiteback {
   background-color: #ffffff;
-}
+}*/
 
-.bg--orange {
+/*.bg--orange {
     background: #FF6239;
-}
+}*/
 
-.orangetext, .orangetext li a {
+/*.orangetext, .orangetext li a {
   color: #FF6239;
-}
+}*/
 
 .bg--orange{
     color: #ffffff;
