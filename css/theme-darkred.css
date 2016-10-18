@@ -793,7 +793,7 @@ div[data-overlay] ul {
 }
 /**! 7. Colors **/
 body {
-  background: #f8f8f8;
+  background: #ffffff;
 }
 .color--primary {
   color: #bb5042 !important;
@@ -826,7 +826,7 @@ a {
   background: #fff;
 }
 .bg--site {
-  background: #f8f8f8;
+  background: #ffffff;
 }
 .bg--secondary {
   background: #f4f4f4;
@@ -1224,7 +1224,7 @@ nav {
   top: 0;
 }
 .nav-bar.nav--fixed:not(.bg--dark):not(.bg--primary):not(.bg--white) {
-  background: #f8f8f8;
+  background: #ffffff;
 }
 .nav-bar.nav--fixed + .nav-mobile-toggle {
   position: fixed;
@@ -3062,7 +3062,7 @@ body.theme--boxed .nav-bar.nav--fixed {
   right: 0;
 }
 body.theme--boxed section:not(.bg--white):not(.bg--dark):not(.bg--secondary):not(.bg--dark) {
-  background: #f8f8f8;
+  background: #ffffff;
 }
 @media all and (max-width: 1400px) {
   body.theme--boxed {
