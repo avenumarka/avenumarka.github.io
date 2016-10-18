@@ -7705,3 +7705,22 @@ section[class*='elements-'] hr + .row {
 .whiteback {
   background-color: #ffffff;
 }
+
+.bg--orange {
+    background: #FF6239;
+}
+
+.orangetext, .orangetext li a {
+  color: #FF6239;
+}
+
+.bg--orange{
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 50px 0px 50px;
+}
+
+.bg--orange i {
+    color: #ffffff;
+}
+
