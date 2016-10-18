@@ -7697,3 +7697,7 @@ section[class*='elements-'] hr + .row {
     margin-bottom: 0.8125em;
   }
 }
+
+.redcolor h1, .redcolor p {
+  color: #FF6239 !important;
+}
