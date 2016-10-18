@@ -7701,3 +7701,7 @@ section[class*='elements-'] hr + .row {
 .redcolor h1, .redcolor p, .redcolor {
   color: #bb5042 !important;
 }
+
+.whiteback {
+  background-color: #ffffff;
+}
