@@ -829,7 +829,7 @@ a {
   background: #ffffff;
 }
 .bg--secondary {
-  background: #f4f4f4;
+  background: #ffffff;
 }
 .bg--primary {
   background: #bb5042;
@@ -1897,7 +1897,7 @@ button:focus {
 .boxed {
   position: relative;
   overflow: hidden;
-  padding: 2.4375em;
+  padding: 0.4375em;
   margin-bottom: 30px;
 }
 .boxed.boxed--lg {
@@ -2974,11 +2974,11 @@ form[action*='list-manage.com'] .small-meta {
 section,
 footer {
   padding-top: 2.5em;
-  padding-bottom: 2.125em;
+  padding-bottom: 1.125em;
 }
 section.space--sm,
 footer.space--sm {
-  padding-top: 4.33333333em;
+  padding-top: 2.333333em;
   padding-bottom: 4.33333333em;
 }
 section.space--lg,
@@ -5729,7 +5729,7 @@ a:active .card {
   text-align: center;
 }
 .card-1 .card__title + p {
-  margin-top: 1.625em;
+  margin-top: 0.625em;
 }
 @media all and (max-width: 767px) {
   .card-1 .card__icon {
@@ -5743,6 +5743,8 @@ a:active .card {
 .card-1 .card__title,
 .card-2 .card__title {
   margin-bottom: 0.8125em;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #FF6239;
 }
 .card-1 span:not(:last-child),
 .card-2 span:not(:last-child) {
@@ -5751,7 +5753,7 @@ a:active .card {
 }
 .card-1 .card__body p,
 .card-2 .card__body p {
-  min-height: 8.125em;
+  min-height: 3.125em;
 }
 @media all and (max-width: 767px) {
   .card-1 .card__body p,
@@ -7704,8 +7706,13 @@ section[class*='elements-'] hr + .row {
 
 .orangeback {
   background-color: #000000;
+  color: #ffffff;
 }
 
+.orange-bg {
+  background-color: #FF6239;
+  color: #ffffff;
+}
 /*.whiteback {
   background-color: #ffffff;
 }*/
@@ -7730,4 +7737,12 @@ section[class*='elements-'] hr + .row {
 
 .small-font {
   font-size: small;
+}
+
+i.icon-Email, i.icon-Phone-2 {
+    font-weight: bold;
+}
+
+.bg--site2 {
+  background-color: #efefef;
 }
