@@ -7746,6 +7746,6 @@ i.icon-Email, i.icon-Phone-2 {
 .bg--site2 {
   background-color: #efefef;
 }
-h1 span {
-  /*background-color: #000000;*/
+.slider h1 span{
+  font-weight: lighter;
 }
