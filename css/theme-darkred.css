@@ -7749,3 +7749,9 @@ i.icon-Email, i.icon-Phone-2 {
 .slider h1 span{
   font-weight: lighter;
 }
+.lead span {
+  background-color: #000000;
+}
+.slider .lead {
+  font-size: 30px;
+}
