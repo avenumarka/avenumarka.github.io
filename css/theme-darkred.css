@@ -1287,6 +1287,7 @@ nav {
 }
 .menu > li:last-child a {
   padding-right: 0;
+  font-weight: 800;
 }
 .nav-bar.bg--white .menu > li > a {
   color: #767676;
