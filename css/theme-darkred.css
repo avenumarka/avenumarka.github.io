@@ -3593,7 +3593,7 @@ p[class*='col-'] {
   font-size: 13px;
 }
 .utility-bar .nav-module + .nav-module {
-  /*margin-left: 1.625em;*/
+  margin-left: 1.625em;
 }
 .utility-bar:not(.hidden) + .nav-bar + .nav-mobile-toggle {
   top: 42px;
