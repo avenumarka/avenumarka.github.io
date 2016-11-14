@@ -1067,10 +1067,10 @@ a {
   color: #fff;
 }
 .btn--primary:hover {
-  background: #c36154;
+  background: #e81b04;
 }
 .btn--primary:active {
-  background: #a8483b;
+  background: #e81b04;
 }
 .btn--primary-1,
 .btn--primary-1:visited {
