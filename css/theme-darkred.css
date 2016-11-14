@@ -2109,6 +2109,9 @@ section.slider .owl-theme .owl-controls .owl-nav div.owl-next {
   padding: 0;
   background: none;
 }
+.owl-next:before, .owl-prev:before {
+  color: #FF6239;
+}
 .owl-theme .owl-controls .owl-nav div:before {
   font-family: 'pillar-interface';
   font-size: 2em;
@@ -2116,12 +2119,18 @@ section.slider .owl-theme .owl-controls .owl-nav div.owl-next {
 }
 .owl-theme .owl-controls .owl-nav div.owl-next {
   right: 1.625em;
+  background-color: #ffffff;
+  padding: 22px 26px 16px 28px;
+  border-radius: 50%;
 }
 .owl-theme .owl-controls .owl-nav div.owl-next:before {
   content: "\e802";
 }
 .owl-theme .owl-controls .owl-nav div.owl-prev {
   left: 1.625em;
+  background-color: #ffffff;
+  padding: 22px 26px 16px 28px;
+  border-radius: 50%;
 }
 .owl-theme .owl-controls .owl-nav div.owl-prev:before {
   content: "\e801";
