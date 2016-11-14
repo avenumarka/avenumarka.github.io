@@ -249,7 +249,7 @@ body {
 }
 .pos-vertical-center {
   position: relative;
-  top: 50%;
+  top: 40%;
   transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
 }
