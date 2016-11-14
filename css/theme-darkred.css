@@ -77,7 +77,7 @@ body {
   line-height: 1.625em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Roboto', sans-serif;;
+  font-family: 'Oswald', sans-serif;
   color: #767676;
   font-weight: 400;
 }
@@ -209,7 +209,7 @@ a:active {
   font-weight: italic;
 }
 .type--fine-print {
-  font-size: 0.6875em;
+  font-size: 0.76em;
 }
 .type--strikethrough {
   text-decoration: line-through;
@@ -3593,7 +3593,7 @@ p[class*='col-'] {
   font-size: 13px;
 }
 .utility-bar .nav-module + .nav-module {
-  margin-left: 1.625em;
+  /*margin-left: 1.625em;*/
 }
 .utility-bar:not(.hidden) + .nav-bar + .nav-mobile-toggle {
   top: 42px;
