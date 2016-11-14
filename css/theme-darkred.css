@@ -1147,7 +1147,7 @@ a {
 /**! 9. Icons **/
 .icon {
   line-height: 1em;
-  font-size: 2.8125em;
+  font-size: 1.8125em;
 }
 .icon--sm {
   font-size: 2em;
@@ -7767,4 +7767,13 @@ i.icon-Email, i.icon-Phone-2 {
 .grayback {
   background-color: rgba(68, 68, 68, 0.44);
   padding: 30px;
+}
+
+p i .icon {
+  font-size: 10px;
+}
+.i-right {
+  color: #FF6239 !important;
+  font-size: 20px;
+  font-weight: bold;
 }
