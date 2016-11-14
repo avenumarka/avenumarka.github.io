@@ -1287,7 +1287,6 @@ nav {
 }
 .menu > li:last-child a {
   padding-right: 0;
-  font-weight: 800;
 }
 .nav-bar.bg--white .menu > li > a {
   color: #767676;
@@ -3494,7 +3493,7 @@ p[class*='col-'] {
   color: #232323;
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-weight: 500;
+  font-weight: 600;
   transition: 0.2s linear;
   -webkit-transition: 0.2s linear;
   -moz-transition: 0.2s linear;
