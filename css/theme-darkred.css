@@ -1283,10 +1283,10 @@ nav {
   display: inline-block;
 }
 .menu > li:first-child > a {
-  padding-left: 0;
+  /* padding-left: 0; */
 }
 .menu > li:last-child a {
-  padding-right: 0;
+  /* padding-right: 0; */
 }
 .nav-bar.bg--white .menu > li > a {
   color: #767676;
@@ -3487,12 +3487,13 @@ p[class*='col-'] {
   -moz-transition: 0.3s linear;
 }
 .menu > li:hover > a {
-  opacity: .6;
+  color: #767676;
+  border-bottom: 4px solid #FF6239;
 }
 .menu > li a {
   color: #000000;
   text-transform: uppercase;
-  font-size: 10px;
+  font-size: 11px;
   transition: 0.2s linear;
   -webkit-transition: 0.2s linear;
   -moz-transition: 0.2s linear;
