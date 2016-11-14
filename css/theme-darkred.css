@@ -3490,7 +3490,7 @@ p[class*='col-'] {
   opacity: .6;
 }
 .menu > li a {
-  color: #232323;
+  color: #000000;
   text-transform: uppercase;
   font-size: 10px;
   transition: 0.2s linear;
