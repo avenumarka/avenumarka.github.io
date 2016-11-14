@@ -131,8 +131,8 @@ h6,
   line-height: 2.6em;
 }
 .lead {
-  font-size: 1.4375em;
-  line-height: 1.69565217em;
+  font-size: 1.15em;
+  line-height: 1.695652em;
 }
 @media all and (max-width: 767px) {
   h1,
@@ -3178,7 +3178,7 @@ h6,
   }
 }
 .lead {
-  margin-bottom: 1.1304347826087em;
+  margin-bottom: 7.130435em;
   font-weight: 400;
 }
 .lead:last-child {
