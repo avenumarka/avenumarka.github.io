@@ -2129,7 +2129,7 @@ section.slider .owl-theme .owl-controls .owl-nav div.owl-next {
 .owl-theme .owl-controls .owl-nav div.owl-prev {
   left: 1.625em;
   background-color: #ffffff;
-  padding: 22px 26px 16px 28px;
+  padding: 22px 30px 16px 24px;
   border-radius: 50%;
 }
 .owl-theme .owl-controls .owl-nav div.owl-prev:before {
