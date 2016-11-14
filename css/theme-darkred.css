@@ -961,7 +961,7 @@ a {
   transition: 0.1s linear;
   -webkit-transition: 0.1s linear;
   -moz-transition: 0.1s linear;
-  border-radius: 100px;
+  /*border-radius: 100px;*/
   padding-top: 0.54166667em;
   padding-bottom: 0.65em;
   padding-right: 3.25em;
@@ -2095,7 +2095,7 @@ section.slider .owl-theme .owl-controls .owl-nav div.owl-next {
 .owl-theme .owl-controls .owl-nav {
   position: absolute;
   z-index: 99;
-  top: 50%;
+  top: 40%;
   width: 100%;
   transform: translate3d(0, -50%, 0);
   -webkit-transform: translate3d(0, -50%, 0);
@@ -2120,7 +2120,7 @@ section.slider .owl-theme .owl-controls .owl-nav div.owl-next {
 .owl-theme .owl-controls .owl-nav div.owl-next {
   right: 1.625em;
   background-color: rgba(255, 98, 57, 0.65);
-  padding: 15px 18px 9px 24px;
+  padding: 12px 15px 7px 22px;
   border-radius: 50%;
 }
 .owl-theme .owl-controls .owl-nav div.owl-next:before {
@@ -2129,7 +2129,7 @@ section.slider .owl-theme .owl-controls .owl-nav div.owl-next {
 .owl-theme .owl-controls .owl-nav div.owl-prev {
   left: 1.625em;
   background-color: rgba(255, 98, 57, 0.65);
-  padding: 15px 24px 9px 18px;
+  padding: 12px 22px 7px 15px;
   border-radius: 50%;
 }
 .owl-theme .owl-controls .owl-nav div.owl-prev:before {
@@ -7765,5 +7765,6 @@ i.icon-Email, i.icon-Phone-2 {
   font-size: 30px;
 }
 .grayback {
-  background-color: rgba(125, 125, 125, 0.52);
+  background-color: rgba(125, 125, 125, 0.44);
+  padding: 30px;
 }
